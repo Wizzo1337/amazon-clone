@@ -20,13 +20,13 @@ function App() {
       if (authUser) {
         dispatch({
           type: 'SET_USER',
-          user: authUser
+          user: authUser,
         })
         //the user just logged in / the user was logged in
       } else {
         dispatch({
           type: 'SET_USER',
-          user: null
+          user: null,
         })
         //the user is logged out
       }
@@ -39,6 +39,7 @@ function App() {
         <Routes>
           <Route path='/login' element={[<Login />]} />
           <Route path='/checkout' element={[<Header />, <Checkout />]} />
+          <Route path='/payment' element={[<Header />]} />
           <Route path='/' element={[<Header />, <Home />]} />
         </Routes>
         {/* Home */}

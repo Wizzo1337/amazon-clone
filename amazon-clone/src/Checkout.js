@@ -1,8 +1,9 @@
-import React from 'react'
 import './Checkout.css'
 import CheckoutProduct from './CheckoutProduct'
 import { useStateValue } from './StateProvider'
 import Subtotal from './Subtotal'
+import React, { forwardRef } from 'react'
+import FlipMove from 'react-flip-move'
 
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue()
@@ -28,11 +29,6 @@ function Checkout() {
               rating={item.rating}
             />
           ))}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
-          {/* CheckoutProduct */}
         </div>
       </div>
       <div className='checkout__right'>

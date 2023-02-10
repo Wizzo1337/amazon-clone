@@ -1,0 +1,4 @@
+1. Upgrade the header component to include the user's eamil
+2. Add animation to the build
+3. Style Amazon
+4. Deploy the app!
