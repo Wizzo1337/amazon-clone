@@ -16,7 +16,6 @@ function Login() {
         navigate('/')
       })
       .catch((error) => alert(error.message))
-    //fancy firebase login shttttt
   }
 
   const register = (e) => {
