@@ -6,7 +6,7 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDhSUvM1V5mfktWE-VsZWJnIpFEtgv2hkg',
+  apiKey: 'AIzaSyCC5PNkqI3wybRsBbuwvnjgJOZke0rn4hQ',
   authDomain: 'challenge-f9b45.firebaseapp.com',
   projectId: 'challenge-f9b45',
   storageBucket: 'challenge-f9b45.appspot.com',
