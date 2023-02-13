@@ -1,0 +1,21 @@
+npm i firebase
+npm i -g firebase-tools
+firebase login
+firebase init
+
+then go to Hosting; then use an exist project; then go to your project name, what do you want to use as your public directory? type build; configure as SPA? Y;
+
+npm run build
+
+
+
+
+
+
+
+
+firebase emulators:start
+
+firebase deploy --only functions (this deploys only the backend)
+
+firebase deploy --only hosting ( this is frontend)
